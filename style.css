@@ -17,3 +17,7 @@ b {
 main {
     background-color: rgb(247, 110, 183);
 }
+
+#banner {
+    width: 100%;
+}
