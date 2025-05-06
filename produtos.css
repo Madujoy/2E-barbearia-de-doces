@@ -31,3 +31,53 @@ nav{
 #banner {
     width: 250px;
 }
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(231, 141, 201);
+    border-radius: 10px;
+}
+
+.produtos h2 {
+    font-weight: bold;
+}
+
+.produtos-descricao {
+    font-size: 18px;
+}
+
+.produtos-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+nav a:hover {
+    color: rgb(223, 5, 243);
+    text-decoration: underline;
+}
+
+.produtos li:hover {
+    border-color: rgb(174, 43, 226);
+}
+
+.produtos li:active {
+    border-color: rgb(188, 61, 247);
+
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
