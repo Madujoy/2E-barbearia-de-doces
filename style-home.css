@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(250, 153, 201);
+}
+
+h1 {
+    text-align: center
+}
+
+p {
+    text-align: center;
+}
+
+b {
+    color: rgb(173, 217, 231);
+}
+
+main {
+    background-color: rgb(248, 132, 194);
+}
+
+#banner {
+    width: 70%;
+}
